@@ -3,39 +3,22 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
-
-export const lastName = 'LastName';
+export const name = 'Isaac';
+export const lastName = 'Dcruz';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+  'A CS + Math major at UPenn looking to gain experience in software development';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
-	{
-		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
-	{
-		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+  { platform: Platform.GitHub, link: 'https://github.com/iadcruz' },
+  {
+      platform: Platform.Linkedin,
+      link: 'https://www.linkedin.com/in/isaac-dcruz'
+  },
+  {
+      platform: Platform.Email,
+      link: 'iadcruzsa21@gmail.com'
+  },
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'nodejs', 'ts', 'python', 'java', 'mongodb', 'expressjs', 'pandas', 'numpy');
