@@ -11,7 +11,7 @@ export const items: Array<Education> = [
        organization: 'Greenwich High School',
        period: { from: new Date(2020, 8), to: new Date(2024, 6) },
        shortDescription: '5.0 GPA, 16 APs, High Honor Roll, AP Scholar with Distinction, National Science Honor Society',
-       slug: 'dummy-education-item',
+       slug: 'highschool',
        subjects: ['Multivariable Calculus', 'Linear Algebra', 'Differential Equations', 'Mechanics', 'Electricity and Magnetism', 'JavaScript', 'CSS', 'HTML', 'Java', 'Statistics', 'Microeconomics', 'Macroeconomics']
    },
    {
@@ -23,7 +23,7 @@ export const items: Array<Education> = [
       organization: 'University of Pennsylvania School of Engineering and Applied Science',
       period: { from: new Date(2024, 8), to: new Date(2028, 5) },
       shortDescription: '',
-      slug: 'dummy-education-item',
+      slug: 'undergrad',
       subjects: ['Discrete mathematics', 'OCaml', 'Multivariable Calculus']
   }
 ];
