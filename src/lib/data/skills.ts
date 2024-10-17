@@ -91,7 +91,7 @@ export const items = [
       description: '',
       logo: Assets.Python,
       name: 'Python',
-      category: 'pro-long'
+      category: 'pro-lang'
   }),
   defineSkill({
       slug: 'expressjs',
