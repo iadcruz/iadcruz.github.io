@@ -67,6 +67,22 @@ export const items: Array<Project> = [
        },
        skills: getSkills('js', 'html', 'css'),
        type: 'Simulation'
+   },
+   {
+       slug: 'tictactoe-bot',
+       color: '#ff3e00',
+       description:
+           'Created a TicTacToe bot that evaluates the best move in any position using the Minimax algorithm for game theory.',
+       shortDescription:
+           'Created a TicTacToe bot that is playable in the console',
+       links: [{ to: 'https://github.com/iadcruz/TicTacToeBot', label: 'GitHub' }],
+       logo: Assets.Unknown,
+       name: 'TicTacToeBot',
+       period: {
+           from: new Date(2024, 11), to: new Date(2024, 11)
+       },
+       skills: getSkills('python'),
+       type: 'Bot'
    }
 ];
 
