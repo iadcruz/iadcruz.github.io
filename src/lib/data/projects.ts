@@ -59,7 +59,7 @@ export const items: Array<Project> = [
            'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
        shortDescription:
            'Created a simulation model for vector field properties of a fluid',
-       links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
+       links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }, { to: 'https://iadcruz.github.io/FluidSim/', label: 'Demo' }],
        logo: Assets.Unknown,
        name: 'Fluid Dynamics Simulation',
        period: {
@@ -83,7 +83,23 @@ export const items: Array<Project> = [
        },
        skills: getSkills('python'),
        type: 'Bot'
-   }
+   },
+   {
+    slug: 'number-converter',
+    color: '#ff3e00',
+    description:
+        'Basic number base converter with stored history and base slider',
+    shortDescription:
+        'Basic number base converter with stored history and base slider',
+    links: [{ to: 'https://github.com/iadcruz/NumberConverter', label: 'Github' }, { to: 'https://iadcruz.github.io/NumberConverter/', label: 'Demo' }],
+    logo: Assets.Unknown,
+    name: 'NumberConverter',
+    period: {
+        from: new Date(2022, 11), to: new Date(2022, 11)
+    },
+    skills: getSkills('js', 'html', 'css'),
+    type: 'Program'
+}
 ];
 
 export const title = 'Projects';
