@@ -71,7 +71,8 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	OCaml: a('ocaml.png')
+	OCaml: a('ocaml.png'),
+	Swing: a('java.png')
 };
 
 export default Assets;

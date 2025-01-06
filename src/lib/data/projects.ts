@@ -22,7 +22,7 @@ export const items: Array<Project> = [
    },
    {
        slug: 'kleanzy',
-       color: '#ff3e00',
+       color: '#5e95e3',
        description:
            'Developed front and back end for a community clean up app using Node.js, MongoDB, mongoose, JavaScript, HTML, and CSS; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
        shortDescription:
@@ -38,7 +38,7 @@ export const items: Array<Project> = [
    },
    {
        slug: 'double-pendulum',
-       color: '#ff3e00',
+       color: '#5e95e3',
        description:
            'Created a simulation that models the chaotic motion of a double pendulum under given starting conditions, including initial velocities and positions for each segment of the pendulum; self-studied the fundamentals of chaotic motion and used numpy to model pendulum motion by solving the Lagrangian through Runge-Kutta approximation methods',
        shortDescription:
@@ -54,7 +54,7 @@ export const items: Array<Project> = [
    },
    {
        slug: 'fluid-sim',
-       color: '#ff3e00',
+       color: '#5e95e3',
        description:
            'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
        shortDescription:
@@ -70,7 +70,7 @@ export const items: Array<Project> = [
    },
    {
        slug: 'tictactoe-bot',
-       color: '#ff3e00',
+       color: '#5e95e3',
        description:
            'Created a TicTacToe bot that evaluates the best move in any position using the Minimax algorithm for game theory.',
        shortDescription:
@@ -85,21 +85,35 @@ export const items: Array<Project> = [
        type: 'Bot'
    },
    {
-    slug: 'number-converter',
-    color: '#ff3e00',
-    description:
-        'Basic number base converter with stored history and base slider',
-    shortDescription:
-        'Basic number base converter with stored history and base slider',
-    links: [{ to: 'https://github.com/iadcruz/NumberConverter', label: 'Github' }, { to: 'https://iadcruz.github.io/NumberConverter/', label: 'Demo' }],
-    logo: Assets.Unknown,
-    name: 'NumberConverter',
-    period: {
-        from: new Date(2022, 11), to: new Date(2022, 11)
+        slug: 'number-converter',
+        color: '#5e95e3',
+        description:
+            'Basic number base converter with stored history and base slider',
+        shortDescription:
+            'Basic number base converter with stored history and base slider',
+        links: [{ to: 'https://github.com/iadcruz/NumberConverter', label: 'Github' }, { to: 'https://iadcruz.github.io/NumberConverter/', label: 'Demo' }],
+        logo: Assets.Unknown,
+        name: 'NumberConverter',
+        period: {
+            from: new Date(2022, 11), to: new Date(2022, 11)
+        },
+        skills: getSkills('js', 'html', 'css'),
+        type: 'Program'
     },
-    skills: getSkills('js', 'html', 'css'),
-    type: 'Program'
-}
+    {
+        slug: '2048',
+        color: '#5e95e3',
+        description: 'Recreated 2048 tile game with arrow key movement, keyboard shortcuts, score tracking, and saveable game state',
+        shortDescription: 'Recreated 2048 tile game',
+        links: [{ to: 'https://github.com/iadcruz/2048', label: 'Github'}],
+        logo: Assets.Unknown,
+        name: '2048',
+        period: {
+            from: new Date(2024, 11), to: new Date(2024, 11)
+        },
+        skills: getSkills('java', 'swing'),
+        type: 'Game'
+    }
 ];
 
 export const title = 'Projects';

@@ -124,6 +124,14 @@ export const items = [
     logo: Assets.OCaml,
     name: 'OCaml',
     category: 'pro-lang'
+  }),
+  defineSkill({
+    slug: 'swing',
+    color: 'orange',
+    description: '',
+    logo: Assets.Swing,
+    name: 'Swing',
+    category: 'library'
   })
 ] as const;
 
