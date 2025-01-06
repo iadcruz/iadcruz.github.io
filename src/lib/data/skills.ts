@@ -116,6 +116,14 @@ export const items = [
       logo: Assets.Numpy,
       name: 'Numpy',
       category: 'library'
+  }),
+  defineSkill({
+    slug: 'ocaml',
+    color: 'orange',
+    description: '',
+    logo: Assets.OCaml,
+    name: 'OCaml',
+    category: 'pro-lang'
   })
 ] as const;
 
