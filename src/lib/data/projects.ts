@@ -26,7 +26,7 @@ export const items: Array<Project> = [
        description:
            'Developed front and back end for a community clean up app using Node.js, MongoDB, mongoose, JavaScript, HTML, and CSS; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
        shortDescription:
-           'Developed front and back end for a community clean up app',
+           'Developed front and back end for a community clean up app; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
        logo: Assets.Unknown,
        name: 'Social Media App Full-Stack Development',
@@ -42,7 +42,7 @@ export const items: Array<Project> = [
        description:
            'Created a simulation that models the chaotic motion of a double pendulum under given starting conditions, including initial velocities and positions for each segment of the pendulum; self-studied the fundamentals of chaotic motion and used numpy to model pendulum motion by solving the Lagrangian through Runge-Kutta approximation methods',
        shortDescription:
-           'Created a simulation to model the chaotic motion of a double pendulum',
+           'Created a simulation that models the chaotic motion of a double pendulum under given starting conditions, including initial velocities and positions for each segment of the pendulum; self-studied the fundamentals of chaotic motion and used numpy to model pendulum motion by solving the Lagrangian through Runge-Kutta approximation methods',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
        logo: Assets.Unknown,
        name: 'Double Pendulum Simulation',
@@ -58,7 +58,7 @@ export const items: Array<Project> = [
        description:
            'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
        shortDescription:
-           'Created a simulation model for vector field properties of a fluid',
+           'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }, { to: 'https://iadcruz.github.io/FluidSim/', label: 'Demo' }],
        logo: Assets.Unknown,
        name: 'Fluid Dynamics Simulation',
@@ -72,9 +72,9 @@ export const items: Array<Project> = [
        slug: 'tictactoe-bot',
        color: '#5e95e3',
        description:
-           'Created a TicTacToe bot that evaluates the best move in any position using the Minimax algorithm for game theory.',
+           'Created a TicTacToe bot playable in the console that evaluates the best move in any position using the Minimax algorithm for game theory',
        shortDescription:
-           'Created a TicTacToe bot that is playable in the console',
+           'Created a TicTacToe bot playable in the console that evaluates the best move in any position using the Minimax algorithm for game theory',
        links: [{ to: 'https://github.com/iadcruz/TicTacToeBot', label: 'GitHub' }],
        logo: Assets.Unknown,
        name: 'TicTacToeBot',
@@ -104,7 +104,7 @@ export const items: Array<Project> = [
         slug: '2048',
         color: '#5e95e3',
         description: 'Recreated 2048 tile game with arrow key movement, keyboard shortcuts, score tracking, and saveable game state',
-        shortDescription: 'Recreated 2048 tile game',
+        shortDescription: 'Recreated 2048 tile game with arrow key movement, keyboard shortcuts, score tracking, and saveable game state',
         links: [{ to: 'https://github.com/iadcruz/2048', label: 'Github'}],
         logo: Assets.Unknown,
         name: '2048',
@@ -118,10 +118,10 @@ export const items: Array<Project> = [
         slug: 'sudoku-solver',
         color: '#5e95e3',
         description: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
-        shortDescription: 'Solves any Sudoku puzzle',
+        shortDescription: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
         links: [{ to: 'https://github.com/iadcruz/SudokuSolver', label: 'Github'}, { to: 'https://iadcruz.github.io/SudokuSolver/', label: 'Demo'}],
         logo: Assets.Unknown,
-        name: '2048',
+        name: 'Sudoku Solver',
         period: {
             from: new Date(2025, 0), to: new Date(2025, 0)
         },
