@@ -98,7 +98,7 @@ export const items: Array<Project> = [
             from: new Date(2022, 11), to: new Date(2022, 11)
         },
         skills: getSkills('js', 'html', 'css'),
-        type: 'Program'
+        type: 'App'
     },
     {
         slug: '2048',
@@ -113,6 +113,20 @@ export const items: Array<Project> = [
         },
         skills: getSkills('java', 'swing'),
         type: 'Game'
+    },
+    {
+        slug: 'sudoku-solver',
+        color: '#5e95e3',
+        description: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
+        shortDescription: 'Solves any Sudoku puzzle',
+        links: [{ to: 'https://github.com/iadcruz/SudokuSolver', label: 'Github'}, { to: 'https://iadcruz.github.io/SudokuSolver/', label: 'Demo'}],
+        logo: Assets.Unknown,
+        name: '2048',
+        period: {
+            from: new Date(2025, 0), to: new Date(2025, 0)
+        },
+        skills: getSkills('js', 'html', 'css'),
+        type: 'App'
     }
 ];
 
