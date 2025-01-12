@@ -117,7 +117,7 @@ export const items: Array<Project> = [
     {
         slug: 'sudoku-solver',
         color: '#5e95e3',
-        description: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
+        description: 'Created a browser-based Sudoku solver using a brute-force DFS algorithm to find a solution to the provided puzzle',
         shortDescription: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
         links: [{ to: 'https://github.com/iadcruz/SudokuSolver', label: 'Github'}, { to: 'https://iadcruz.github.io/SudokuSolver/', label: 'Demo'}],
         logo: Assets.Unknown,
