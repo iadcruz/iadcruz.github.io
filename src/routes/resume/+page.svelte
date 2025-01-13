@@ -14,11 +14,15 @@
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}
-		<iframe src={data} class="h-full w-full" title={title}></iframe>
 	</div>
+	<iframe src={data} title={title}></iframe>
 </CommonPage>
 
 <style lang="scss">
+	iframe {
+		height: max-content;
+		width: max-content;
+	}
 	.resume {
 		display: flex;
 		justify-content: center;
