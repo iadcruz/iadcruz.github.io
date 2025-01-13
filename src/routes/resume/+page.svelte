@@ -5,7 +5,7 @@
 	import CommonPage from '$lib/components/CommonPage.svelte';
 </script>
 
-<CommonPage {title}>
+<CommonPage {title} class="resumeContainer">
 	<div class="resume">
 		{#if data}
 			<a href={data} download>
@@ -15,13 +15,13 @@
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}
 	</div>
-	<iframe src={data} title={title}></iframe>
+	<iframe src={data} class="h-full w-full" title={title}></iframe>
 </CommonPage>
 
 <style lang="scss">
-	iframe {
-		height: max-content;
-		width: max-content;
+	.resumeContainer {
+		height: 100%;
+		width: 100%;
 	}
 	.resume {
 		display: flex;
