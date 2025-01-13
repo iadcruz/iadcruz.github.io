@@ -15,7 +15,7 @@
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}
 	</div>
-	<iframe src={data} class="h-[600px] w-full" title={title}></iframe>
+	<iframe src={'/pdf/IsaacDcruzResume.pdf'} class="h-[600px] w-full" title={title}></iframe>
 </CommonPage>
 
 <style lang="scss">
