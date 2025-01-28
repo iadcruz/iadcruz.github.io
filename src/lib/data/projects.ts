@@ -5,22 +5,6 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
    {
-       slug: 'text-gen',
-       color: '#5e95e3',
-       description:
-           'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
-       shortDescription:
-           'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
-       links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
-       logo: Assets.Unknown,
-       name: 'Text Prediction and Generation',
-       period: {
-           from: new Date(2024, 8), to: new Date(2024, 8)
-       },
-       skills: getSkills('python', 'numpy'),
-       type: 'Machine Learning'
-   },
-   {
        slug: 'kleanzy',
        color: '#5e95e3',
        description:
@@ -29,13 +13,29 @@ export const items: Array<Project> = [
            'Developed front and back end for a community clean up app; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
        logo: Assets.Unknown,
-       name: 'Social Media App Full-Stack Development',
+       name: 'Kleanzy',
        period: {
            from: new Date(2023, 7), to: new Date(2023, 8)
        },
        skills: getSkills('js', 'css', 'html', 'mongodb', 'expressjs', 'nodejs'),
        type: 'App'
    },
+   {
+        slug: 'swipeflix',
+        color: '#5e95e3',
+        description:
+            'Developed a full-stack app that allows users to swipe on movies and tv shows to get personalized recommendations and interact with other users to build their watchlist; implemented user authentication through Clerk, database storage with Postgresql, and responsive UI components with TypeScript, React, ShadCn, and Node.js',
+        shortDescription:
+            'Developed a full-stack app that allows users to swipe on movies and tv shows to get personalized recommendations and interact with other users to build their watchlist',
+        links: [{ to: 'https://github.com/iadcruz/swipeflix', label: 'GitHub'}, { to: 'https://swipeflix.vercel.app', label: 'App' }],
+        logo: Assets.Unknown,
+        name: 'SwipeFlix',
+        period: {
+            from: new Date(2025, 1), to: new Date(2025, 1)
+        },
+        skills: getSkills('js', 'css', 'html', 'ts', 'nodejs', 'react', 'clerk', 'prisma', 'nextjs', 'postgresql', 'tailwind'),
+        type: 'App'
+    },
    {
        slug: 'double-pendulum',
        color: '#5e95e3',
@@ -127,6 +127,22 @@ export const items: Array<Project> = [
         },
         skills: getSkills('js', 'html', 'css'),
         type: 'App'
+    },
+    {
+        slug: 'text-gen',
+        color: '#5e95e3',
+        description:
+            'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
+        shortDescription:
+            'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
+        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
+        logo: Assets.Unknown,
+        name: 'Text Prediction and Generation',
+        period: {
+            from: new Date(2024, 8), to: new Date(2024, 8)
+        },
+        skills: getSkills('python', 'numpy'),
+        type: 'Machine Learning'
     }
 ];
 

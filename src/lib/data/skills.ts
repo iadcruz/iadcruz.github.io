@@ -12,6 +12,7 @@ const categories = [
   defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
   defineSkillCategory({ name: 'Databases', slug: 'db' }),
   defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
+  defineSkillCategory({ name: 'APIs', slug: 'api' }),
   defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
   defineSkillCategory({ name: 'Testing', slug: 'test' }),
   defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
@@ -43,6 +44,51 @@ export const items = [
       category: 'pro-lang'
   }),
   defineSkill({
+    slug: 'ts',
+    color: 'blue',
+    description:
+        '',
+    logo: Assets.TypeScript,
+    name: 'Typescript',
+    category: 'pro-lang'
+}),
+defineSkill({
+    slug: 'tailwind',
+    color: 'blue',
+    description:
+        '',
+    logo: Assets.Tailwind,
+    name: 'TailwindCSS',
+    category: 'framework'
+}),
+defineSkill({
+    slug: 'postgresql',
+    color: 'blue',
+    description:
+        '',
+    logo: Assets.PostgreSQL,
+    name: 'Postgresql',
+    category: 'db'
+}),
+defineSkill({
+    slug: 'react',
+    color: 'blue',
+    description:
+        '',
+    logo: Assets.ReactJs,
+    name: 'React',
+    category: 'framework'
+}),
+defineSkill({
+    slug: 'nextjs',
+    color: 'yellow',
+    description:
+        '',
+    logo: Assets.NextJs,
+    name: 'NextJs',
+    category: 'framework'
+}),
+  defineSkill({
       slug: 'css',
       color: 'blue',
       description:
@@ -60,6 +106,24 @@ export const items = [
       name: 'HTML',
       category: 'markup-style'
   }),
+  defineSkill({
+        slug: 'prisma',
+        color: 'blue',
+        description:
+            '',
+        logo: Assets.Prisma,
+        name: 'Prisma',
+        category: 'orm'
+  }),
+    defineSkill({
+        slug: 'clerk',
+        color: 'purple',
+        description:
+            '',
+        logo: Assets.Clerk,
+        name: 'Clerk',
+        category: 'api'
+    }),
   defineSkill({
       slug: 'nodejs',
       color: 'green',

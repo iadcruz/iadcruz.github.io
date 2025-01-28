@@ -72,7 +72,10 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	OCaml: a('ocaml.png'),
-	Swing: a('java.png')
+	Swing: a('java.png'),
+	NextJs: a('nextjs.png'),
+	Prisma: a('prisma.png'),
+	Clerk: a('clerk.png'),
 };
 
 export default Assets;
