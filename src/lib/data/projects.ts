@@ -143,6 +143,20 @@ export const items: Array<Project> = [
         },
         skills: getSkills('python', 'numpy'),
         type: 'Machine Learning'
+    },
+    {
+        slug: 'black-scholes',
+        color: '#5e95e3',
+        description: 'An interactive options pricing model that utilizes the Black-Scholes equation to output call and put prices, pricing heatmaps, and greeks',
+        shortDescription: 'An interactive Black-Scholes options pricing model',
+        links: [{ to: 'https://github.com/iadcruz/InteractiveBlackScholesOptionPricing?tab=readme-ov-file', label: 'GitHub' }, { to: 'https://iadcruz-interactiveblackscholesoptionpricing-app-zffkl0.streamlit.app', label: 'Demo' }],
+        logo: Assets.Unknown,
+        name: 'Black Scholes Option Pricing Model',
+        period: {
+            from: new Date(2025, 7), to: new Date(2025, 7)
+        },
+        skills: getSkills('python'),
+        type: 'Simulation'
     }
 ];
 
