@@ -155,7 +155,21 @@ export const items: Array<Project> = [
         period: {
             from: new Date(2025, 7), to: new Date(2025, 7)
         },
-        skills: getSkills('python'),
+        skills: getSkills('python', 'numpy'),
+        type: 'Simulation'
+    },
+    {
+        slug: 'black-scholes-surface',
+        color: '#5e95e3',
+        description: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
+        shortDescription: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
+        links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface/tree/main', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app', label: 'Demo' }],
+        logo: Assets.Unknown,
+        name: 'Black Scholes Implied Volatility Surface Model',
+        period: {
+            from: new Date(2025, 7), to: new Date(2025, 7)
+        },
+        skills: getSkills('python', 'numpy'),
         type: 'Simulation'
     }
 ];
