@@ -100,7 +100,7 @@
 							<div class="col-center gap-3 m-b-5">
 								<div class="row-center gap-2 text-[var(--accent-text)]">
 									<UIcon icon="i-carbon-play" classes="text-1.2em" />
-									<h3 class="text-1.1em font-400">Live Demo</h3>
+									<h3 class="text-1.1em font-400">Demo</h3>
 								</div>
 							</div>
 							<div class="demo-container w-full rounded-10px overflow-hidden border border-[var(--border)]">
@@ -111,16 +111,6 @@
 									loading="lazy"
 									sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
 								></iframe>
-							</div>
-							<div class="text-center m-t-3">
-								<a 
-									href={demoLink.to} 
-									target="_blank" 
-									rel="noopener noreferrer"
-									class="text-[var(--accent-text)] text-0.9em hover:underline"
-								>
-									Open in new tab ↗
-								</a>
 							</div>
 						</div>
 					</div>
