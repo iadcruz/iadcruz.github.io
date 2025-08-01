@@ -149,7 +149,7 @@ export const items: Array<Project> = [
         color: '#5e95e3',
         description: 'An interactive options pricing model that utilizes the Black-Scholes equation to output call and put prices, pricing heatmaps, and greeks',
         shortDescription: 'An interactive Black-Scholes options pricing model',
-        links: [{ to: 'https://github.com/iadcruz/InteractiveBlackScholesOptionPricing?tab=readme-ov-file', label: 'GitHub' }, { to: 'https://iadcruz-interactiveblackscholesoptionpricing-app-zffkl0.streamlit.app', label: 'Demo' }],
+        links: [{ to: 'https://github.com/iadcruz/InteractiveBlackScholesOptionPricing?tab=readme-ov-file', label: 'GitHub' }, { to: 'https://iadcruz-interactiveblackscholesoptionpricing-app-zffkl0.streamlit.app/?embed=true', label: 'Demo' }],
         logo: Assets.Unknown,
         name: 'Black Scholes Option Pricing Model',
         period: {
@@ -163,7 +163,7 @@ export const items: Array<Project> = [
         color: '#5e95e3',
         description: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
         shortDescription: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
-        links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app', label: 'Demo' }],
+        links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app/?embed=true', label: 'Demo' }],
         logo: Assets.Unknown,
         name: 'Black Scholes Implied Volatility Surface Model',
         period: {
