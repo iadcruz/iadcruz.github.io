@@ -27,6 +27,9 @@
 			: undefined;
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
+	$: demoLink = data.project?.links?.find((link: { label: string; }) => 
+		link.label.toLowerCase() === 'app' || link.label.toLowerCase() === 'demo'
+	);
 </script>
 
 <TabTitle title={computedTitle} />
@@ -88,6 +91,40 @@
 						</div>
 					{/if}
 				</div>
+				{#if demoLink}
+					<div class="w-100% m-t-8">
+						<CardDivider />
+					</div>
+					<div class="pt-3 pb-1 overflow-x-hidden w-full">
+						<div class="px-10px m-y-5">
+							<div class="col-center gap-3 m-b-5">
+								<div class="row-center gap-2 text-[var(--accent-text)]">
+									<UIcon icon="i-carbon-play" classes="text-1.2em" />
+									<h3 class="text-1.1em font-400">Live Demo</h3>
+								</div>
+							</div>
+							<div class="demo-container w-full rounded-10px overflow-hidden border border-[var(--border)]">
+								<iframe
+									src={demoLink.to}
+									title="{data.project.name} Demo"
+									class="w-full h-96 md:h-[600px] border-none"
+									loading="lazy"
+									sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
+								></iframe>
+							</div>
+							<div class="text-center m-t-3">
+								<a 
+									href={demoLink.to} 
+									target="_blank" 
+									rel="noopener noreferrer"
+									class="text-[var(--accent-text)] text-0.9em hover:underline"
+								>
+									Open in new tab ↗
+								</a>
+							</div>
+						</div>
+					</div>
+				{/if}
 				<div class="w-100% m-t-8">
 					<CardDivider />
 				</div>
