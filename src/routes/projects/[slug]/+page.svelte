@@ -115,10 +115,10 @@
 						</div>
 					</div>
 				{/if}
-				<div class="w-100% m-t-8">
-					<CardDivider />
-				</div>
 				{#if screenshots.length > 0}
+					<div class="w-100% m-t-8">
+						<CardDivider />
+					</div>
 					<div
 						class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
 					>
@@ -140,11 +140,11 @@
 							</div>
 						{/each}
 					</div>
-				{:else}
+				<!--{:else}
 					<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
 						<UIcon icon="i-carbon-image" classes="text-3.5em" />
 						<p class="font-300">No screenshots</p>
-					</div>
+					</div>-->
 				{/if}
 			</div>
 		</div>
