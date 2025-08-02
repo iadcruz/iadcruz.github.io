@@ -28,7 +28,7 @@
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
 	$: demoLink = data.project?.links?.find((link: { label: string; }) => 
-		!link.label.includes("streamlit") && (link.label.toLowerCase() === 'app' || link.label.toLowerCase() === 'demo')
+		link.label.toLowerCase() === 'demo'
 	);
 </script>
 
