@@ -4,22 +4,35 @@ import type { Project } from '../types';
 
 
 export const items: Array<Project> = [
-   {
-       slug: 'kleanzy',
-       color: '#5e95e3',
-       description:
-           'Developed front and back end for a community clean up app using Node.js, MongoDB, mongoose, JavaScript, HTML, and CSS; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
-       shortDescription:
-           'Developed front and back end for a community clean up app; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
-       links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
-       logo: Assets.Unknown,
-       name: 'Kleanzy',
-       period: {
-           from: new Date(2023, 7), to: new Date(2023, 8)
-       },
-       skills: getSkills('js', 'css', 'html', 'mongodb', 'expressjs', 'nodejs'),
-       type: 'App'
-   },
+
+    {
+        slug: 'black-scholes',
+        color: '#5e95e3',
+        description: 'An interactive options pricing model that utilizes the Black-Scholes equation to output call and put prices, pricing heatmaps, and greeks',
+        shortDescription: 'An interactive Black-Scholes options pricing model',
+        links: [{ to: 'https://github.com/iadcruz/InteractiveBlackScholesOptionPricing?tab=readme-ov-file', label: 'GitHub' }, { to: 'https://iadcruz-interactiveblackscholesoptionpricing-app-zffkl0.streamlit.app/?embed=true', label: 'Demo' }],
+        logo: Assets.Unknown,
+        name: 'Black Scholes Option Pricing Model',
+        period: {
+            from: new Date(2025, 7), to: new Date(2025, 7)
+        },
+        skills: getSkills('python', 'numpy'),
+        type: 'Simulation'
+    },
+    {
+        slug: 'black-scholes-surface',
+        color: '#5e95e3',
+        description: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
+        shortDescription: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
+        links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app/?embed=true', label: 'Demo' }],
+        logo: Assets.Unknown,
+        name: 'Black Scholes Implied Volatility Surface Model',
+        period: {
+            from: new Date(2025, 7), to: new Date(2025, 7)
+        },
+        skills: getSkills('python', 'numpy'),
+        type: 'Simulation'
+    },
    {
         slug: 'swipeflix',
         color: '#5e95e3',
@@ -36,6 +49,22 @@ export const items: Array<Project> = [
         skills: getSkills('js', 'css', 'html', 'ts', 'nodejs', 'react', 'clerk', 'prisma', 'nextjs', 'postgresql', 'tailwind'),
         type: 'App'
     },
+   {
+       slug: 'kleanzy',
+       color: '#5e95e3',
+       description:
+           'Developed front and back end for a community clean up app using Node.js, MongoDB, mongoose, JavaScript, HTML, and CSS; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
+       shortDescription:
+           'Developed front and back end for a community clean up app; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
+       links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
+       logo: Assets.Unknown,
+       name: 'Kleanzy',
+       period: {
+           from: new Date(2023, 7), to: new Date(2023, 8)
+       },
+       skills: getSkills('js', 'css', 'html', 'mongodb', 'expressjs', 'nodejs'),
+       type: 'App'
+   },
    {
        slug: 'double-pendulum',
        color: '#5e95e3',
@@ -144,34 +173,6 @@ export const items: Array<Project> = [
         skills: getSkills('python', 'numpy'),
         type: 'Machine Learning'
     },
-    {
-        slug: 'black-scholes',
-        color: '#5e95e3',
-        description: 'An interactive options pricing model that utilizes the Black-Scholes equation to output call and put prices, pricing heatmaps, and greeks',
-        shortDescription: 'An interactive Black-Scholes options pricing model',
-        links: [{ to: 'https://github.com/iadcruz/InteractiveBlackScholesOptionPricing?tab=readme-ov-file', label: 'GitHub' }, { to: 'https://iadcruz-interactiveblackscholesoptionpricing-app-zffkl0.streamlit.app/?embed=true', label: 'Demo' }],
-        logo: Assets.Unknown,
-        name: 'Black Scholes Option Pricing Model',
-        period: {
-            from: new Date(2025, 7), to: new Date(2025, 7)
-        },
-        skills: getSkills('python', 'numpy'),
-        type: 'Simulation'
-    },
-    {
-        slug: 'black-scholes-surface',
-        color: '#5e95e3',
-        description: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
-        shortDescription: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
-        links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app/?embed=true', label: 'Demo' }],
-        logo: Assets.Unknown,
-        name: 'Black Scholes Implied Volatility Surface Model',
-        period: {
-            from: new Date(2025, 7), to: new Date(2025, 7)
-        },
-        skills: getSkills('python', 'numpy'),
-        type: 'Simulation'
-    }
 ];
 
 export const title = 'Projects';
