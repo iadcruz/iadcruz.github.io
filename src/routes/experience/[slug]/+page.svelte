@@ -18,7 +18,7 @@
 	export let data: { experience?: Experience };
 
 	$: computedTitle = data.experience ? `${data.experience.name} - ${title}` : title;
-	$: bullets = data.experience.description.split("\n");
+	$: bullets = data.experience.description.split("• ");
 </script>
 
 <TabTitle title={computedTitle} />
@@ -77,11 +77,11 @@
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.experience.description}
-						<div>
+						<ul>
 							{#each bullets as bullet}
-								<div>{bullet}</div>
+								<li>{bullet}</li>
 							{/each}
-						</div>
+						</ul>
 					{:else}
 						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
 							<UIcon icon="i-carbon-text-font" classes="text-3.5em" />
