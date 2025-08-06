@@ -30,6 +30,7 @@
 		{ label: experience.location, icon: 'i-carbon-location' },
 		{ label: experience.contract, icon: 'i-carbon-hourglass' }
 	] as const;
+	$: bullets = experience.description.split("• ");
 </script>
 
 <Card
@@ -68,7 +69,13 @@
 				</div>
 				<CardDivider />
 			</div>
-			<div class="experience-description text-[0.9em]">{experience.shortDescription}</div>
+			<div class="experience-description text-[0.9em]">
+				<ul>
+					{#each bullets as bullet}
+						<li>{bullet}</li>
+					{/each}
+				</ul>
+			</div>
 			<div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}
 					<ChipIcon
