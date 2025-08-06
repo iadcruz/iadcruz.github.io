@@ -18,6 +18,7 @@
 	export let data: { experience?: Experience };
 
 	$: computedTitle = data.experience ? `${data.experience.name} - ${title}` : title;
+	$: bullets = data.experience.description.split("\n");
 </script>
 
 <TabTitle title={computedTitle} />
@@ -77,7 +78,9 @@
 				<div class="px-10px m-y-5">
 					{#if data.experience.description}
 						<div>
-							{data.experience.description ?? 'This place is yet to be filled...'}
+							{#each bullets as bullet}
+								<div>{bullet}</div>
+							{/each}
 						</div>
 					{:else}
 						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
