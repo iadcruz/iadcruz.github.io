@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#000000" rx="20" />
+
+  <!-- Swiping Cards (angled rectangles) -->
+  <g transform="translate(35,50)">
+    <rect x="0" y="0" width="40" height="60" rx="5" fill="#ff3c3c" transform="rotate(-15 0 0)" />
+    <rect x="12" y="0" width="40" height="60" rx="5" fill="#ffffff" transform="rotate(-5 10 0)" opacity="0.9"/>
+    <polygon points="20,10 40,20 20,30" fill="#ff3c3c" transform="translate(20,15)" />
+  </g>
+
+  <!-- Text Logo -->
+  <text x="80" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" letter-spacing="1">
+    Swipe
+  </text>
+  <text x="80" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#ff3c3c" font-weight="bold">
+    Flix
+  </text>
+</svg>
