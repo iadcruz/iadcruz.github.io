@@ -57,7 +57,6 @@
 					{/each}
 				</div>
 			</div>
-			
 		</div>
 	</div>
 	<div class="text-[var(--text)] text-[0.9em]">
@@ -73,7 +72,7 @@
 		<CardDivider />
 	</div>
 	<div class="experience-description text-[0.9em]">
-		<ul style="ml-0 list-inside">
+		<ul>
 			{#each bullets as bullet}
 				<li>{bullet}</li>
 			{/each}
