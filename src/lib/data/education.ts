@@ -3,16 +3,16 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
     {
-        degree: 'Bachelor of Science',
-        description: 'Computer Science and Mathematics',
+        degree: 'B.S. Computer Science and Mathematics',
+        description: '',
         location: 'Philadelphia, PA',
         logo: Assets.UPenn,
         name: 'Undergraduate Education',
         organization: 'University of Pennsylvania',
         period: { from: new Date(2024, 8), to: new Date(2028, 5) },
-        shortDescription: 'Computer Science and Mathematics',
+        shortDescription: '',
         slug: 'undergrad',
-        subjects: ['Discrete mathematics', 'OCaml', 'Multivariable Calculus', 'Data Structures and Algorithms', 'Automata, Complexity, and Computability', 'Linear Algebra and Differential Equations']
+        subjects: ['Discrete mathematics', 'OCaml', 'Multivariable Calculus', 'Data Structures and Algorithms', 'Theory of Computability', 'Linear Algebra', 'Differential Equations', 'Advanced Algorithms']
     }
 ];
 

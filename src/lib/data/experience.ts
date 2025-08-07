@@ -41,7 +41,7 @@ export const items: Array<Experience> = [
        type: 'Software Development',
        location: 'Philadelphia, Pennsylvania',
        period: { from: new Date(2025, 6) },
-       skills: getSkills('js', 'ts', 'nextjs', 'postgresql', 'tailwind', 'react', 'css', 'html', 'nodejs'),
+       skills: getSkills('js', 'ts', 'nextjs', 'postgresql', 'tailwind', 'react', 'css', 'html', 'nodejs', 'prisma'),
        name: 'Software Developer Intern',
        color: 'red',
        links: [],
