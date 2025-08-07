@@ -70,7 +70,8 @@
 				<CardDivider />
 			</div>
 		</div>
-		<div class="experience-description text-[0.9em]">
+	</div>
+	<div class="experience-description text-[0.9em]">
 				<ul style="ml-0 list-inside">
 					{#each bullets as bullet}
 						<li>{bullet}</li>
@@ -86,5 +87,4 @@
 					/>
 				{/each}
 			</div>
-	</div>
 </Card>
