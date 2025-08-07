@@ -77,7 +77,7 @@
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.experience.description}
-						<ul>
+						<ul style="ml-0 list-inside">
 							{#each bullets as bullet}
 								<li>{bullet}</li>
 							{/each}
