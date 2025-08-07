@@ -41,7 +41,7 @@ export const items: Array<Project> = [
         shortDescription:
             'Developed a full-stack app that allows users to swipe on movies and tv shows to get personalized recommendations and interact with other users to build their watchlist',
         links: [{ to: 'https://github.com/iadcruz/swipeflix', label: 'GitHub'}, { to: 'https://swipeflix.vercel.app', label: 'App' }],
-        logo: Assets.Unknown,
+        logo: Assets.SwipeFlix,
         name: 'SwipeFlix',
         period: {
             from: new Date(2025, 1), to: new Date(2025, 1)

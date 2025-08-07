@@ -76,6 +76,7 @@ const Assets = {
 	NextJs: a('nextjs.png'),
 	Prisma: a('prisma.png'),
 	Clerk: a('clerk.png'),
+	SwipeFlix: a('swipeflix_logo.svg')
 };
 
 export default Assets;
