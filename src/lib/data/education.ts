@@ -6,7 +6,7 @@ export const items: Array<Education> = [
         degree: 'Bachelor of Science',
         description: 'Computer Science and Mathematics',
         location: 'Philadelphia, PA',
-        logo: Assets.Unknown,
+        logo: Assets.UPenn,
         name: 'Undergraduate Education',
         organization: 'University of Pennsylvania',
         period: { from: new Date(2024, 8), to: new Date(2028, 5) },

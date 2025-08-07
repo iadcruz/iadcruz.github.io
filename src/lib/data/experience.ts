@@ -30,7 +30,7 @@ export const items: Array<Experience> = [
        name: 'Undergraduate Research Intern',
        color: 'red',
        links: [],
-       logo: Assets.Unknown,
+       logo: Assets.UPenn,
        shortDescription: 'Analyzing longitudinal fracture data from the MrOS cohort to develop clinical risk prediction models \n• Cleaning demographic, clinical, and fracture history features from 5000+ patient records with Pandas \n• Training Gradient Boosted Decision Tree models in Python to estimate individualized fracture risk for potential integration into a digital health tool'
    },
    {
@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
        name: 'Software Developer Intern',
        color: 'red',
        links: [],
-       logo: Assets.Unknown,
+       logo: Assets.UPenn,
        shortDescription: 'Building a full-stack app for MCAT preparation and study materials using Next.js \n• Implementing secure user authentication using NextAuth.js and PostgreSQL for database storage \n• Developing a responsive UI using TypeScript and React to ensure accessibility across devices'
    },
    {
@@ -60,7 +60,7 @@ export const items: Array<Experience> = [
        name: 'Undergraduate Teaching Assistant',
        color: 'red',
        links: [],
-       logo: Assets.Unknown,
+       logo: Assets.UPenn,
        shortDescription: 'Support 150+ students in a rigorous proof and Java programming based course covering data structures and algorithms \n• Hold weekly office hours to assist students with debugging, algorithm design, and code comprehension \n• Lead weekly recitation of 20+ students and complete weekly grading of written and programming assignments \n• Contribute to curriculum development through committee work to improve course content and logistics'
    }
 ];
