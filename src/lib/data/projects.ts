@@ -105,7 +105,7 @@ export const items: Array<Project> = [
        shortDescription:
            'Created a TicTacToe bot playable in the console that evaluates the best move in any position using the Minimax algorithm for game theory',
        links: [{ to: 'https://github.com/iadcruz/TicTacToeBot', label: 'GitHub' }],
-       logo: Assets.Unknown,
+       logo: Assets.TicTacToe,
        name: 'TicTacToeBot',
        period: {
            from: new Date(2024, 11), to: new Date(2024, 11)
@@ -135,7 +135,7 @@ export const items: Array<Project> = [
         description: 'Recreated 2048 tile game with arrow key movement, keyboard shortcuts, score tracking, and saveable game state',
         shortDescription: 'Recreated 2048 tile game with arrow key movement, keyboard shortcuts, score tracking, and saveable game state',
         links: [{ to: 'https://github.com/iadcruz/2048', label: 'Github'}],
-        logo: Assets.Unknown,
+        logo: Assets.Game2048,
         name: '2048',
         period: {
             from: new Date(2024, 11), to: new Date(2024, 11)
@@ -149,7 +149,7 @@ export const items: Array<Project> = [
         description: 'Created a browser-based Sudoku solver using a brute-force DFS algorithm to find a solution to the provided puzzle',
         shortDescription: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
         links: [{ to: 'https://github.com/iadcruz/SudokuSolver', label: 'Github'}, { to: 'https://iadcruz.github.io/SudokuSolver/', label: 'Demo'}],
-        logo: Assets.Unknown,
+        logo: Assets.Sudoku,
         name: 'Sudoku Solver',
         period: {
             from: new Date(2025, 0), to: new Date(2025, 0)

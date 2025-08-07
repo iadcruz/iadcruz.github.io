@@ -78,7 +78,10 @@ const Assets = {
 	Clerk: a('clerk.png'),
 	SwipeFlix: a('swipeflix_logo.svg'),
 	UPenn: a('UPenn.svg'),
-	RGNCM: a('rgncm.png')
+	RGNCM: a('rgncm.png'),
+	Game2048: a('2048.png'),
+	Sudoku: a('sudoku.svg'),
+	TicTacToe: a('Tic_tac_toe.svg.png'),
 };
 
 export default Assets;

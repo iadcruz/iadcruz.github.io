@@ -57,34 +57,35 @@
 					{/each}
 				</div>
 			</div>
-			<div class="text-[var(--text)] text-[0.9em]">
-				<div class="row items-center gap-2">
-					<UIcon icon="i-carbon-calendar" classes="text-1.25em" />
-					{period}
-				</div>
-				<CardDivider />
-				<div class="row items-center gap-2">
-					<UIcon icon="i-carbon-time" classes="text-1.25em" />
-					{exactDuration}
-				</div>
-				<CardDivider />
-			</div>
+			
 		</div>
 	</div>
+	<div class="text-[var(--text)] text-[0.9em]">
+		<div class="row items-center gap-2">
+			<UIcon icon="i-carbon-calendar" classes="text-1.25em" />
+			{period}
+		</div>
+		<CardDivider />
+		<div class="row items-center gap-2">
+			<UIcon icon="i-carbon-time" classes="text-1.25em" />
+			{exactDuration}
+		</div>
+		<CardDivider />
+	</div>
 	<div class="experience-description text-[0.9em]">
-				<ul style="ml-0 list-inside">
-					{#each bullets as bullet}
-						<li>{bullet}</li>
-					{/each}
-				</ul>
-			</div>
-			<div class="flex flex-row flex-wrap mt-5">
-				{#each experience.skills as skill}
-					<ChipIcon
-						logo={getAssetURL(skill.logo)}
-						name={skill.name}
-						href={`${base}/skills/${skill.slug}`}
-					/>
-				{/each}
-			</div>
+		<ul style="ml-0 list-inside">
+			{#each bullets as bullet}
+				<li>{bullet}</li>
+			{/each}
+		</ul>
+	</div>
+	<div class="flex flex-row flex-wrap mt-5">
+		{#each experience.skills as skill}
+			<ChipIcon
+				logo={getAssetURL(skill.logo)}
+				name={skill.name}
+				href={`${base}/skills/${skill.slug}`}
+			/>
+		{/each}
+	</div>
 </Card>
