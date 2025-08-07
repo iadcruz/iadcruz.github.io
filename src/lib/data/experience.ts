@@ -15,7 +15,7 @@ export const items: Array<Experience> = [
        name: 'Software Engineering Intern',
        color: 'red',
        links: [],
-       logo: Assets.Unknown,
+       logo: Assets.RGNCM,
        shortDescription: 'Developed scalable Python tools to compile, process, and analyze futures trading volume data for quantitative analysis \n• Leveraged Refinitiv/LSEG API to access and model real-time futures market data, supporting intraday pattern analysis \n• Optimized data retrieval by >90% via persistent DuckDB integration, reducing query latency for real-time analytics \n• Developed custom pattern analysis functions using C++ to analyze price positioning relative to intraday ranges and autocorrelation using the Hurst exponent'
    },
    {

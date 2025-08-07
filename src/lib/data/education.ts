@@ -10,7 +10,7 @@ export const items: Array<Education> = [
         name: 'Undergraduate Education',
         organization: 'University of Pennsylvania',
         period: { from: new Date(2024, 8), to: new Date(2028, 5) },
-        shortDescription: '',
+        shortDescription: 'Computer Science and Mathematics',
         slug: 'undergrad',
         subjects: ['Discrete mathematics', 'OCaml', 'Multivariable Calculus', 'Data Structures and Algorithms', 'Automata, Complexity, and Computability', 'Linear Algebra and Differential Equations']
     }

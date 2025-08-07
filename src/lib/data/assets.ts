@@ -77,7 +77,8 @@ const Assets = {
 	Prisma: a('prisma.png'),
 	Clerk: a('clerk.png'),
 	SwipeFlix: a('swipeflix_logo.svg'),
-	UPenn: a('UPenn.svg')
+	UPenn: a('UPenn.svg'),
+	RGNCM: a('rgncm.png')
 };
 
 export default Assets;
