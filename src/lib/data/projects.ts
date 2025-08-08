@@ -8,14 +8,14 @@ export const items: Array<Project> = [
         slug: 'black-scholes-surface',
         color: '#5e95e3',
         description: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
-        shortDescription: 'An interactive 3D model that displays the implied volatility surface by leveraging the YFinance API for real-world ticker data and using the Black Scholes equation to back out the implied vol',
+        shortDescription: 'An implied volatility surface visualizer using the YFinance API',
         links: [{ to: 'https://github.com/iadcruz/ImpliedVolatilitySurface', label: 'GitHub' }, { to: 'https://iadcruz-impliedvolatilitysurface-main-vls3zy.streamlit.app/?embed=true', label: 'Demo' }],
         logo: Assets.Surface,
         name: 'Black Scholes Implied Volatility Surface Model',
         period: {
             from: new Date(2025, 7), to: new Date(2025, 7)
         },
-        skills: getSkills('python', 'numpy'),
+        skills: getSkills('python', 'numpy', 'plotly', 'scipy', 'pandas', 'yfinance'),
         type: 'Simulation'
     },
    {
@@ -24,7 +24,7 @@ export const items: Array<Project> = [
         description:
             'Developed a full-stack app that allows users to swipe on movies and tv shows to get personalized recommendations and interact with other users to build their watchlist; implemented user authentication through Clerk, database storage with Postgresql, and responsive UI components with TypeScript, React, ShadCn, and Node.js',
         shortDescription:
-            'Developed a full-stack app that allows users to swipe on movies and tv shows to get personalized recommendations and interact with other users to build their watchlist',
+            'A Tinder-like swiping app for movies and tv shows',
         links: [{ to: 'https://github.com/iadcruz/swipeflix', label: 'GitHub'}, { to: 'https://swipeflix.vercel.app', label: 'App' }],
         logo: Assets.SwipeFlix,
         name: 'SwipeFlix',
@@ -45,7 +45,7 @@ export const items: Array<Project> = [
         period: {
             from: new Date(2025, 7), to: new Date(2025, 7)
         },
-        skills: getSkills('python', 'numpy'),
+        skills: getSkills('python', 'numpy', 'scipy', 'matplotlib', 'pandas'),
         type: 'Simulation'
     },
    {
@@ -54,7 +54,7 @@ export const items: Array<Project> = [
        description:
            'Developed front and back end for a community clean up app using Node.js, MongoDB, mongoose, JavaScript, HTML, and CSS; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
        shortDescription:
-           'Developed front and back end for a community clean up app; implemented user login/signup and account information database storage; pitched prototype app to the Congressional App Challenge and was awarded 3rd place by Rep. Jim Himes',
+           'A community clean up social media app',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
        logo: Assets.Kleanzy,
        name: 'Kleanzy',
@@ -70,7 +70,7 @@ export const items: Array<Project> = [
        description:
            'Created a simulation that models the chaotic motion of a double pendulum under given starting conditions, including initial velocities and positions for each segment of the pendulum; self-studied the fundamentals of chaotic motion and used numpy to model pendulum motion by solving the Lagrangian through Runge-Kutta approximation methods',
        shortDescription:
-           'Created a simulation that models the chaotic motion of a double pendulum under given starting conditions, including initial velocities and positions for each segment of the pendulum; self-studied the fundamentals of chaotic motion and used numpy to model pendulum motion by solving the Lagrangian through Runge-Kutta approximation methods',
+           'A double pendulum simulation using the Runge-Kutta numerical method for evaluation',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
        logo: Assets.DoublePendulum,
        name: 'Double Pendulum Simulation',
@@ -86,7 +86,7 @@ export const items: Array<Project> = [
        description:
            'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
        shortDescription:
-           'Self-studied fluid dynamics, including concepts like divergence, curl, the Poisson pressure equations, Navier-Stokes equations, etc, as well as CFD and how to implement these physical concepts through code (e.g. Jacobi iteration); used JavaScript, HTML, and CSS to create an Eulerian grid-based fluid dynamics simulation; modeled the relative velocity and pressure fields under varying starting conditions',
+           'A basic Eulerian grid-based fluid simulation',
        links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }, { to: 'https://iadcruz.github.io/FluidSim/', label: 'Demo' }],
        logo: Assets.FluidSim,
        name: 'Fluid Dynamics Simulation',
@@ -102,7 +102,7 @@ export const items: Array<Project> = [
        description:
            'Created a TicTacToe bot playable in the console that evaluates the best move in any position using the Minimax algorithm for game theory',
        shortDescription:
-           'Created a TicTacToe bot playable in the console that evaluates the best move in any position using the Minimax algorithm for game theory',
+           'A console TicTacToe Bot using the Minimax algorithm',
        links: [{ to: 'https://github.com/iadcruz/TicTacToeBot', label: 'GitHub' }],
        logo: Assets.TicTacToe,
        name: 'TicTacToeBot',
@@ -146,7 +146,7 @@ export const items: Array<Project> = [
         slug: 'sudoku-solver',
         color: '#5e95e3',
         description: 'Created a browser-based Sudoku solver using a brute-force DFS algorithm to find a solution to the provided puzzle',
-        shortDescription: 'Brute-force algorithm that uses DFS to find a solution to the provided Sudoku puzzle',
+        shortDescription: 'A brute-force DFS Sudoku solver',
         links: [{ to: 'https://github.com/iadcruz/SudokuSolver', label: 'Github'}, { to: 'https://iadcruz.github.io/SudokuSolver/', label: 'Demo'}],
         logo: Assets.Sudoku,
         name: 'Sudoku Solver',
@@ -160,9 +160,9 @@ export const items: Array<Project> = [
         slug: 'text-gen',
         color: '#5e95e3',
         description:
-            'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
+            'A machine learning model for next word text prediction trained on a political text dataset',
         shortDescription:
-            'A machine learning model for next word text prediction trained on a political text dataset and converted into a text generator',
+            'A machine learning model for next word text prediction trained on a political text dataset',
         links: [{ to: 'https://github.com/iadcruz', label: 'GitHub' }],
         logo: Assets.Unknown,
         name: 'Text Prediction and Generation',

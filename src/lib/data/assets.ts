@@ -86,7 +86,11 @@ const Assets = {
 	Surface: a('vol.png'),
 	Kleanzy: a('Kleanzy.png'),
 	DoublePendulum: a('DoublePendulum.png'),
-	FluidSim: a('FluidSim.png')
+	FluidSim: a('FluidSim.png'),
+	YFinance: a('YFinance.png'),
+	Scipy: a('Scipy.png'),
+	Plotly: a('plotly.png'),
+	Matplotlib: a('Matplotlib.png'),
 };
 
 export default Assets;

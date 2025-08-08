@@ -122,7 +122,34 @@ defineSkill({
             '',
         logo: Assets.Clerk,
         name: 'Clerk',
+        category: 'library'
+    }),
+    defineSkill({
+        slug: 'yfinance',
+        color: 'purple',
+        description:
+            '',
+        logo: Assets.YFinance,
+        name: 'YFinance',
         category: 'api'
+    }),
+    defineSkill({
+        slug: 'plotly',
+        color: 'red',
+        description:
+        '',
+        logo: Assets.Plotly,
+        name: 'Plotly',
+        category: 'library'
+    }),
+    defineSkill({
+        slug: 'matplotlib',
+        color: 'orange',
+        description:
+        '',
+        logo: Assets.Matplotlib,
+        name: 'Matplotlib',
+        category: 'library'
     }),
   defineSkill({
       slug: 'nodejs',
@@ -180,6 +207,14 @@ defineSkill({
       logo: Assets.Numpy,
       name: 'Numpy',
       category: 'library'
+  }),
+  defineSkill({
+    slug: 'scipy',
+    color: 'blue',
+    description: '',
+    logo: Assets.Scipy,
+    name: 'SciPy',
+    category: 'library'
   }),
   defineSkill({
     slug: 'ocaml',

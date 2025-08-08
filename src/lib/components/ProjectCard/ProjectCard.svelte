@@ -43,11 +43,6 @@
 			<p>{project.type}</p>
 		</div>
 		<CardDivider />
-		<div class="row items-center gap-2">
-			<UIcon icon="i-carbon-time" classes="text-1.25em" />
-			<p>{period}</p>
-		</div>
-		<CardDivider />
 	</div>
 	<div class="col sm:h-100px md:h-160px">
 		<p class="text-[0.9em] text-[var(--secondary-text)] m-t-20px m-b-40px flex-1 line-clamp-3">
