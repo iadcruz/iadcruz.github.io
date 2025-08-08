@@ -80,8 +80,13 @@ const Assets = {
 	UPenn: a('UPenn.svg'),
 	RGNCM: a('rgncm.png'),
 	Game2048: a('2048.png'),
-	Sudoku: a('sudoku.svg'),
+	Sudoku: a('Sudoku.png'),
 	TicTacToe: a('Tic_tac_toe.svg.png'),
+	Heatmap: a('Heatmap.png'),
+	Surface: a('vol.png'),
+	Kleanzy: a('Kleanzy.png'),
+	DoublePendulum: a('DoublePendulum.png'),
+	FluidSim: a('FluidSim.png')
 };
 
 export default Assets;

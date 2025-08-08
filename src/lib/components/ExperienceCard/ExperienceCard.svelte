@@ -48,16 +48,16 @@
 				>
 					<CardTitle title={`${experience.name}`} />
 				</h3>
-				<div class="row flex-wrap items-start m-b-2 gap-1 text-0.9em font-300">
-					{#each info as item}
-						<Chip>
-							<UIcon icon={item.icon} />
-							<span class="m-l-1">{item.label}</span>
-						</Chip>
-					{/each}
-				</div>
 			</div>
 		</div>
+	</div>
+	<div class="row flex-wrap items-start m-b-2 gap-1 text-0.9em font-300">
+		{#each info as item}
+			<Chip>
+				<UIcon icon={item.icon} />
+				<span class="m-l-1">{item.label}</span>
+			</Chip>
+		{/each}
 	</div>
 	<div class="text-[var(--text)] text-[0.9em]">
 		<div class="row items-center gap-2">
